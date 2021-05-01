@@ -37,7 +37,7 @@ function App() {
 
   useEffect(() => {
     const timer = setInterval(async () => {
-      fetch('http://localhost:3001/getAnimal')
+      fetch('https://react-googlemap.herokuapp.com/getAnimal')
         .then((response) => response.json())
         .then((data) => {
           setState({ ...state, markers: data });
