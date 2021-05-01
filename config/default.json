@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://User:animalDetection@animaldetection.dpl6c.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}

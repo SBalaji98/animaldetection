@@ -1,0 +1,9 @@
+{
+  "short_name": "Animal Detection",
+  "name": "Animal Detection",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
