@@ -9,7 +9,7 @@ const AnimalEventsSchema = new mongoose.Schema({
     type: Object,
     required: true,
   },
-  DateTime:{
+  dateTime:{
     type:Date,
     required:true
   }
