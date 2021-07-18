@@ -2,11 +2,15 @@ const mongoose = require('mongoose');
 
 const AnimalEventsSchema = new mongoose.Schema({
   animal: {
-    type: String,
+    type: [],
     required: true,
   },
   location: {
     type: Object,
+    required: true,
+  },
+  sessionId: {
+    type: String,
     required: true,
   },
 });
