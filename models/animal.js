@@ -13,6 +13,10 @@ const AnimalEventsSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  dateTime: {
+    type: Date,
+    required: true,
+  },
 });
 
 module.exports = AnimalEvents = mongoose.model('animals', AnimalEventsSchema);
